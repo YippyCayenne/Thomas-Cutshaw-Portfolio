@@ -29,16 +29,15 @@ header {
     padding: 1.5rem;
 }
 
-header h1 {
-    color: #FAF8F0;
-    font-family: apple chancery, cursive;
+header h1, footer h1, header h2, footer h2 {
+    color: #F2C36B;
     margin: 0;
 }
 
 header, footer p {
     font-family: Neue Haas Grotesk, sans-serif;
     margin-top: 0.5rem;
-    color: #F2C36B;
+    color: #FAF8F0;
 }
 
 nav {
@@ -53,6 +52,7 @@ nav ul {
 
 nav a {
     color: #f2c36b;
+    background-color: #646869;
     text-decoration: none;
     padding: 0.5rem;
     display: block;
@@ -71,10 +71,26 @@ main {
 main h2 {
     color: #F2C36B;
     background-color: #646869;
-    font-family: apple chancery, cursive;
-    margin-top: 0;
+    text-align:center;
     padding: 0.5rem;
+}
+main h3 {
+    color: #F2C36B;
+    background-color: #646869;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1rem;
     display: inline-block;
+}
+main h4 {
+    color: #646869;
+    margin-left: 1.5rem;
+    margin-top: 0;
+}
+main p {
+    border-left: 4px solid #F2C36B;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
 }
 main ul {
     list-style: none;
@@ -96,20 +112,15 @@ img {
     border-left: 4px solid #515230;
 }
 
-aside {
+/*aside {
     background-color: #515230;
     color: #FAF8F0;
     padding: 1rem;
     padding: 1rem;
-}
+}*/
 
-a {
-    display:block;
-    background-color:#646869;
+main a, footer a {
     color:#F2C36B;
-    padding:1rem 2rem;
-    text-decoration:none;
-    text-align:center;
 }
 a:hover {
     color: #FAF8F0;
