@@ -95,6 +95,11 @@ main p {
     margin-left: 1rem;
     padding-left: 0.5rem;
 }
+.blurb {
+    border: none;
+    margin-left: 0;
+    padding-left: 0.5rem;
+}
 main strong {
     color: #646869;
 }
@@ -191,11 +196,13 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
+    justify-content: center;
 }
 
 .projects-row section {
     padding: 1rem;
     border: 4px solid #F2C36B;
+    background-color: #e8ebec;
 }
 .projects-row img {
     width: 100%;
